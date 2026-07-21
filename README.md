@@ -137,17 +137,4 @@ React Frontend ──HTTP──▶ Express Backend ──reads──▶ Mock JSO
 
 ---
 
-## 🎤 Demo Script (1 min 30 sec)
-
-1. **Chat panel** — introduce the assistant
-2. **Notifications** — show priority-ranked alerts
-3. **My Learning** — show compliance and overdue courses
-4. **Switch → Manager**
-5. **Manager Dashboard** — gesture across metric cards, click Timesheets to expand dropdown
-6. **Click Avg Team Utilization card** — navigates to Utilization tab
-7. **Back to Dashboard → click Upcoming PTO card** — navigates to Availability tab
-8. **Switch → Employee** — show manager nav items disappearing (role gate demo)
-
----
-
 *Built for the IBM WatsonX Challenge · July 2026*
