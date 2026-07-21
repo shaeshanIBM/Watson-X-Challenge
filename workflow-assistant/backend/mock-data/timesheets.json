@@ -1,0 +1,72 @@
+{
+  "EMP001": [
+    { "weekOf": "2025-06-23", "submitted": false, "hours": 0, "status": "missing", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 40, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 38, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 36, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 40, "status": "approved", "project": "CloudOps Migration" }
+  ],
+  "EMP002": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 40, "status": "pending",  "project": "Platform Modernisation" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 40, "status": "approved", "project": "Platform Modernisation" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 42, "status": "approved", "project": "Platform Modernisation" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 40, "status": "approved", "project": "Platform Modernisation" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 38, "status": "approved", "project": "Platform Modernisation" }
+  ],
+  "EMP003": [
+    { "weekOf": "2025-06-23", "submitted": false, "hours": 0,  "status": "missing", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-16", "submitted": false, "hours": 0,  "status": "missing", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 25, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 28, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 30, "status": "approved", "project": "CloudOps Migration" }
+  ],
+  "EMP004": [
+    { "weekOf": "2025-06-23", "submitted": false, "hours": 0,  "status": "missing", "project": "Data Analytics Platform" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 36, "status": "approved", "project": "Data Analytics Platform" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 38, "status": "approved", "project": "Data Analytics Platform" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 35, "status": "approved", "project": "Data Analytics Platform" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 40, "status": "approved", "project": "Data Analytics Platform" }
+  ],
+  "EMP005": [
+    { "weekOf": "2025-06-23", "submitted": false, "hours": 0,  "status": "missing", "project": "Enterprise Architecture" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 26, "status": "approved", "project": "Enterprise Architecture" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 28, "status": "approved", "project": "Enterprise Architecture" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 30, "status": "approved", "project": "Enterprise Architecture" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 32, "status": "approved", "project": "Enterprise Architecture" }
+  ],
+  "EMP006": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 38, "status": "pending",  "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 40, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 38, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 40, "status": "approved", "project": "CloudOps Migration" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 36, "status": "approved", "project": "CloudOps Migration" }
+  ],
+  "EMP007": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 32, "status": "pending",  "project": "UX Redesign" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 34, "status": "approved", "project": "UX Redesign" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 32, "status": "approved", "project": "UX Redesign" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 30, "status": "approved", "project": "UX Redesign" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 36, "status": "approved", "project": "UX Redesign" }
+  ],
+  "EMP008": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 48, "status": "pending",  "project": "Infrastructure Automation" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 46, "status": "approved", "project": "Infrastructure Automation" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 50, "status": "approved", "project": "Infrastructure Automation" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 44, "status": "approved", "project": "Infrastructure Automation" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 48, "status": "approved", "project": "Infrastructure Automation" }
+  ],
+  "EMP009": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 35, "status": "pending",  "project": "Business Process Analysis" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 38, "status": "approved", "project": "Business Process Analysis" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 36, "status": "approved", "project": "Business Process Analysis" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 40, "status": "approved", "project": "Business Process Analysis" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 35, "status": "approved", "project": "Business Process Analysis" }
+  ],
+  "EMP010": [
+    { "weekOf": "2025-06-23", "submitted": true,  "hours": 30, "status": "pending",  "project": "Security Assessment" },
+    { "weekOf": "2025-06-16", "submitted": true,  "hours": 32, "status": "approved", "project": "Security Assessment" },
+    { "weekOf": "2025-06-09", "submitted": true,  "hours": 34, "status": "approved", "project": "Security Assessment" },
+    { "weekOf": "2025-06-02", "submitted": true,  "hours": 30, "status": "approved", "project": "Security Assessment" },
+    { "weekOf": "2025-05-26", "submitted": true,  "hours": 28, "status": "approved", "project": "Security Assessment" }
+  ]
+}

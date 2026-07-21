@@ -1,0 +1,9 @@
+[
+  { "employeeId": "EMP002", "employeeName": "David Kim",   "type": "PTO",     "startDate": "2025-07-07", "endDate": "2025-07-18", "days": 10, "status": "approved", "coverage": "Elena Russo", "notes": "Annual family vacation" },
+  { "employeeId": "EMP006", "employeeName": "Lisa Torres", "type": "PTO",     "startDate": "2025-07-07", "endDate": "2025-07-18", "days": 10, "status": "approved", "coverage": "Alex Rivera", "notes": "Summer leave" },
+  { "employeeId": "EMP004", "employeeName": "Priya Patel", "type": "PTO",     "startDate": "2025-07-21", "endDate": "2025-07-25", "days": 5,  "status": "approved", "coverage": "Marcus Chen", "notes": "Short break" },
+  { "employeeId": "EMP010", "employeeName": "Carlos Mendez","type": "PTO",    "startDate": "2025-07-28", "endDate": "2025-08-01", "days": 5,  "status": "approved", "coverage": "James O'Brien", "notes": "Family event" },
+  { "employeeId": "EMP001", "employeeName": "Sarah Johnson","type": "Medical","startDate": "2025-08-11", "endDate": "2025-08-13", "days": 3,  "status": "pending",  "coverage": "Priya Patel", "notes": "Medical appointment" },
+  { "employeeId": "EMP007", "employeeName": "Aisha Williams","type": "PTO",   "startDate": "2025-08-18", "endDate": "2025-08-22", "days": 5,  "status": "approved", "coverage": "Elena Russo", "notes": "Travel" },
+  { "employeeId": "EMP003", "employeeName": "Marcus Chen", "type": "PTO",     "startDate": "2025-09-01", "endDate": "2025-09-05", "days": 5,  "status": "pending",  "coverage": null, "notes": "Holiday plans" }
+]

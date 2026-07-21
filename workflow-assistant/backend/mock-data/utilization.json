@@ -1,0 +1,107 @@
+{
+  "EMP001": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 36, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 38, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 34, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 162, "target": 160 },
+      { "month": "2025-04", "billed": 158, "target": 160 },
+      { "month": "2025-05", "billed": 155, "target": 160 },
+      { "month": "2025-06", "billed": 136, "target": 160, "partial": true }
+    ]
+  },
+  "EMP002": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 38, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 42, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 40, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 165, "target": 160 },
+      { "month": "2025-04", "billed": 160, "target": 160 },
+      { "month": "2025-05", "billed": 162, "target": 160 },
+      { "month": "2025-06", "billed": 162, "target": 160, "partial": true }
+    ]
+  },
+  "EMP003": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 30, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 28, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 25, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 0, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 25, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 130, "target": 160 },
+      { "month": "2025-04", "billed": 118, "target": 160 },
+      { "month": "2025-05", "billed": 122, "target": 160 },
+      { "month": "2025-06", "billed": 78, "target": 160, "partial": true }
+    ]
+  },
+  "EMP004": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 35, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 38, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 36, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 36, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 152, "target": 160 },
+      { "month": "2025-04", "billed": 156, "target": 160 },
+      { "month": "2025-05", "billed": 158, "target": 160 },
+      { "month": "2025-06", "billed": 145, "target": 160, "partial": true }
+    ]
+  },
+  "EMP005": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 32, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 30, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 28, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 26, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 26, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 128, "target": 160 },
+      { "month": "2025-04", "billed": 120, "target": 160 },
+      { "month": "2025-05", "billed": 124, "target": 160 },
+      { "month": "2025-06", "billed": 110, "target": 160, "partial": true }
+    ]
+  },
+  "EMP006": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 36, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 38, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 40, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 38, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 158, "target": 160 },
+      { "month": "2025-04", "billed": 160, "target": 160 },
+      { "month": "2025-05", "billed": 156, "target": 160 },
+      { "month": "2025-06", "billed": 156, "target": 160, "partial": true }
+    ]
+  },
+  "EMP008": {
+    "weeklyHours": [
+      { "weekOf": "2025-05-26", "billed": 48, "target": 40 },
+      { "weekOf": "2025-06-02", "billed": 44, "target": 40 },
+      { "weekOf": "2025-06-09", "billed": 50, "target": 40 },
+      { "weekOf": "2025-06-16", "billed": 46, "target": 40 },
+      { "weekOf": "2025-06-23", "billed": 48, "target": 40 }
+    ],
+    "monthlyHours": [
+      { "month": "2025-03", "billed": 185, "target": 160 },
+      { "month": "2025-04", "billed": 180, "target": 160 },
+      { "month": "2025-05", "billed": 188, "target": 160 },
+      { "month": "2025-06", "billed": 188, "target": 160, "partial": true }
+    ]
+  }
+}

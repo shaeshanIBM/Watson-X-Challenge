@@ -1,0 +1,47 @@
+{
+  "EMP001": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": null, "progress": 20, "status": "overdue", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": null, "progress": 0, "status": "overdue", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-30", "completedDate": null, "progress": 60, "status": "in-progress", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-07-15", "completedDate": null, "progress": 45, "status": "in-progress", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-03-10", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 },
+    { "id": "C006", "title": "Cybersecurity Basics", "category": "Security", "mandatory": true, "dueDate": "2025-04-30", "completedDate": "2025-04-02", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C007", "title": "Cloud Fundamentals", "category": "Technology", "mandatory": false, "dueDate": "2025-09-30", "completedDate": "2025-02-14", "progress": 100, "status": "completed", "provider": "IBM Training", "estimatedHours": 4 },
+    { "id": "C008", "title": "Agile Delivery Practices", "category": "Methodology", "mandatory": false, "dueDate": "2025-12-31", "completedDate": null, "progress": 10, "status": "not-started", "provider": "IBM iX", "estimatedHours": 5 }
+  ],
+  "EMP002": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": "2025-05-20", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": "2025-05-28", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-30", "completedDate": "2025-06-10", "progress": 100, "status": "completed", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-07-15", "completedDate": null, "progress": 80, "status": "in-progress", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-02-18", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 }
+  ],
+  "EMP003": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": null, "progress": 5, "status": "overdue", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": "2025-05-30", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-30", "completedDate": null, "progress": 30, "status": "in-progress", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-07-15", "completedDate": null, "progress": 0, "status": "not-started", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-03-15", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 }
+  ],
+  "EMP004": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": "2025-05-25", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": "2025-05-31", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-15", "completedDate": null, "progress": 50, "status": "overdue", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-07-15", "completedDate": null, "progress": 70, "status": "in-progress", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-03-01", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 }
+  ],
+  "EMP005": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": "2025-05-18", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": "2025-06-01", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-30", "completedDate": null, "progress": 40, "status": "in-progress", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-06-20", "completedDate": null, "progress": 15, "status": "overdue", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-02-20", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 }
+  ],
+  "EMP006": [
+    { "id": "C001", "title": "Data Privacy Essentials", "category": "Compliance", "mandatory": true, "dueDate": "2025-05-31", "completedDate": "2025-05-10", "progress": 100, "status": "completed", "provider": "IBM Security", "estimatedHours": 2 },
+    { "id": "C002", "title": "Security Awareness 2025", "category": "Security", "mandatory": true, "dueDate": "2025-06-01", "completedDate": null, "progress": 0, "status": "overdue", "provider": "IBM Security", "estimatedHours": 1 },
+    { "id": "C003", "title": "Code of Conduct & Business Ethics", "category": "Compliance", "mandatory": true, "dueDate": "2025-06-30", "completedDate": "2025-06-15", "progress": 100, "status": "completed", "provider": "IBM Legal", "estimatedHours": 1.5 },
+    { "id": "C004", "title": "AI Ethics Fundamentals", "category": "Technology", "mandatory": true, "dueDate": "2025-07-15", "completedDate": null, "progress": 90, "status": "in-progress", "provider": "IBM AI Academy", "estimatedHours": 3 },
+    { "id": "C005", "title": "IBM Values & Culture", "category": "HR", "mandatory": true, "dueDate": "2025-03-31", "completedDate": "2025-03-05", "progress": 100, "status": "completed", "provider": "IBM HR", "estimatedHours": 1 }
+  ]
+}
