@@ -28,7 +28,7 @@ function EmployeeAvailability({ currentUser }) {
   const fullWeeks  = weeks.filter(w => w.type === 'full').length;
 
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         My Availability — Next 4 Weeks
         <span className="text-sm font-normal text-gray-500">{emp.role} · {emp.dept}</span>
@@ -128,7 +128,7 @@ function ManagerAvailability() {
   const displayEmployees = employees.slice(0, 6);
 
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         Team Availability Forecast — Next 4 Weeks
         <span className="text-sm font-normal text-gray-500">Cloud Solutions · 10 members</span>

@@ -21,7 +21,7 @@ export default function TopBar({ activeView, currentUser }) {
           ● Connected
         </span>
         <span className="text-xs px-3 py-1 rounded-full bg-gray-100 border border-gray-200 text-gray-500">
-          Week of Jun 23, 2025
+          Week of Jul 20, 2026
         </span>
       </div>
     </div>

@@ -27,7 +27,7 @@ function EmployeeUtilization({ currentUser }) {
   const forecast  = Math.round(prevThree.reduce((s, w) => s + w.billed, 0) / prevThree.length);
 
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         My Utilization — MySA Integration
         <span className="text-sm font-normal text-gray-500">Target: 40h/week · 85%</span>
@@ -107,7 +107,7 @@ function ManagerUtilization() {
   const avg = Math.round(sorted.reduce((s, e) => s + e.pct, 0) / sorted.length);
 
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         Utilization Analytics — MySA Integration
         <span className="text-sm font-normal text-gray-500">Target: 40h/week · 85%</span>

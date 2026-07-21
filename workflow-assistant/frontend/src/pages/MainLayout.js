@@ -30,7 +30,7 @@ export default function MainLayout({ currentUser, activeView, setActiveView, tog
       />
       <div className="flex flex-col flex-1 overflow-hidden">
         <TopBar activeView={activeView} currentUser={currentUser} />
-        <div className="flex-1 overflow-hidden bg-gray-50">
+        <div className="flex-1 overflow-y-auto bg-gray-50">
           <ActiveComponent currentUser={currentUser} setActiveView={setActiveView} />
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function LearningPanel({ employeeId = 'EMP001' }) {
   const compPct   = mandatory.length ? Math.round((completed / mandatory.length) * 100) : 100;
 
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         My Learning — MyLearning Integration
         <span className="text-sm font-normal text-gray-500">{overdue} overdue · {mandatory.length - completed} outstanding</span>

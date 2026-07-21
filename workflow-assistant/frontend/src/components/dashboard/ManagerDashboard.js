@@ -54,8 +54,41 @@ const trainingCols = [
 export default function ManagerDashboard({ setActiveView }) {
   const avgUtil = Math.round(teamUtilization.reduce((s, e) => s + e.pct, 0) / teamUtilization.length);
 
+  const trainingDropdown = (
+    <div className="space-y-2">
+      {overdueTraining.length === 0 ? (
+        <p className="text-xs text-green-600 font-medium">No overdue training ✓</p>
+      ) : (
+        overdueTraining.map((row, i) => (
+          <div key={i} className="flex items-center justify-between gap-3">
+            <span className="text-sm font-medium text-gray-700 w-28 flex-shrink-0">{row.name}</span>
+            <span className="text-xs text-gray-600 flex-1 truncate">{row.course}</span>
+            <span className="bg-red-100 text-red-800 text-xs font-semibold px-2 py-0.5 rounded flex-shrink-0">{row.dueDate}</span>
+          </div>
+        ))
+      )}
+    </div>
+  );
+
+  const timesheetDropdown = (
+    <div className="space-y-2">
+      {missingRows.length === 0 ? (
+        <p className="text-xs text-green-600 font-medium">All timesheets submitted ✓</p>
+      ) : (
+        missingRows.map((row, i) => (
+          <div key={i} className="flex items-center justify-between">
+            <span className="text-sm font-medium text-gray-700">{row.name}</span>
+            <span className={`text-xs font-semibold px-2 py-0.5 rounded ${row.weeks > 1 ? 'bg-red-100 text-red-800' : 'bg-yellow-100 text-yellow-800'}`}>
+              {row.weeks} week{row.weeks > 1 ? 's' : ''} missing
+            </span>
+          </div>
+        ))
+      )}
+    </div>
+  );
+
   return (
-    <div className="overflow-y-auto p-6">
+    <div className="p-6">
       <div className="text-base font-semibold text-gray-800 mb-4 pb-3 border-b border-gray-200 flex items-center justify-between">
         Manager Dashboard
         <span className="text-sm font-normal text-gray-500">Team: Cloud Solutions · Week of Jul 20, 2026</span>
@@ -63,24 +96,12 @@ export default function ManagerDashboard({ setActiveView }) {
 
       {/* Metrics */}
       <div className="grid grid-cols-3 gap-4 mb-5">
-        <MetricCard title="⏱ Timesheets Submitted" value={`${employees.length - missingTimesheets.length} / ${employees.length}`} sub={`${missingTimesheets.length} employees missing`} accent="default" />
+        <MetricCard title="⏱ Timesheets Submitted" value={`${employees.length - missingTimesheets.length} / ${employees.length}`} sub={`${missingTimesheets.length} employees missing`} accent="default" dropdown={timesheetDropdown} />
         <MetricCard title="📈 Avg Team Utilization" value={`${avgUtil}%`} sub="Target: 85% · 2 underutilized" accent={avgUtil >= 85 ? 'green' : 'yellow'} onClick={() => setActiveView('utilization')} />
-        <MetricCard title="🎓 Training Compliance" value={`${trainingCompliancePct}%`} sub={`${overdueEmployeeCount} employee${overdueEmployeeCount !== 1 ? 's' : ''} with overdue courses`} accent={trainingCompliancePct >= 80 ? 'yellow' : 'red'} />
+        <MetricCard title="🎓 Training Compliance" value={`${trainingCompliancePct}%`} sub={`${overdueEmployeeCount} employee${overdueEmployeeCount !== 1 ? 's' : ''} with overdue courses`} accent={trainingCompliancePct >= 80 ? 'yellow' : 'red'} dropdown={trainingDropdown} />
         <MetricCard title="📄 CV Compliance" value={`${Math.round(((employees.length - missingCV.length) / employees.length) * 100)}%`} sub={`${missingCV.length} team members missing CV`} accent="yellow" />
         <MetricCard title="🏖 Upcoming PTO (30d)" value="4" sub="Employees on leave next month" accent="blue" onClick={() => setActiveView('availability')} />
         <MetricCard title="📋 Open Capacity" value="18h" sub="Available bandwidth this week" accent="default" />
-      </div>
-
-      {/* Tables row */}
-      <div className="grid grid-cols-2 gap-4 mb-4">
-        <div className="bg-white border border-gray-200 rounded-xl p-4">
-          <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">⚠️ Missing Timesheets</div>
-          <TeamTable columns={missingCols} rows={missingRows} emptyText="All timesheets submitted ✓" />
-        </div>
-        <div className="bg-white border border-gray-200 rounded-xl p-4">
-          <div className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">🎓 Overdue Mandatory Training</div>
-          <TeamTable columns={trainingCols} rows={overdueTraining} emptyText="No overdue training ✓" />
-        </div>
       </div>
 
       {/* Utilization bars + Alerts */}
